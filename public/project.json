@@ -1,7 +1,7 @@
 [
     {
       "id": "project1-687fb",
-      "img": "../src/assets/Project1.PNG",
+      "img": "../src/assets/project1.png",
       "title": "Product_Hunt",
       "description": "Welcome to Product Hunt, an innovative platform for discovering and sharing cutting-edge tech products! This platform is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) to ensure a robust and seamless user experience.",
       "tag": ["nodejs", "javascript", "firebase", "jwt", "mongodb", "dashboard", "reactjs", "expressjs", "jwt-token", "jwt-authentication", "tailwindcss", "daisyui"],
@@ -12,7 +12,7 @@
     },
     {
       "id": "project2-f4424",
-      "img": "../src/assets/Project2.PNG",
+      "img": "../src/assets/project-2.png",
       "title": "Historical_Artifacts",
       "description": "The Historical Artifacts Tracker is a web application designed to manage and showcase information about historical artifacts such as the Rosetta Stone and the Antikythera Mechanism. Users can explore detailed information, contribute their own artifact entries, and interact with the platform through likes and personalized content.",
       "tag": ["react", "javascript", "nodejs", "firebase", "tailwindCSS", "daisy Ui", "reactjs", "mongoose", "sweetalert2"],
@@ -23,7 +23,7 @@
     },
     {
       "id": "project3-896db",
-      "img": "../src/assets/Project3.PNG",
+      "img": "../src/assets/project-3.png",
       "title": "Visa_Navigator",
       "description": "Welcome to Visa Navigator, a user-friendly web application that simplifies the process of checking visa requirements, applying for visas online, and tracking applications. This platform is designed to provide a seamless user experience with an intuitive UI, advanced functionality, and robust security.",
       "tag": ["react", "javascript", "nodejs", "firebase", "tailwindCSS", "daisy Ui", "reactjs", "mongoose", "sweetalert2"],
@@ -34,7 +34,7 @@
     },
     {
       "id": "project4-40909",
-      "img":"../src/assets/Project4.PNG",
+      "img":"../src/assets/Project-4.png",
       "title": "Lingo_Bingo",
       "description": "Lingo Bingo is a language learning application focused on helping users build and retain Spanish vocabulary through an engaging and interactive platform. It addresses the challenges of learning new words by presenting them with context, pronunciation, and real-life usage examples. The entire application is in English, but the vocabulary database is exclusively in Spanish to provide a focused learning experience. Users must log in to access lessons and other private features, ensuring a personalized journey.",
       "tag": ["firebase", "json-api", "reactjs", "firebase-auth", "tailwindcss", "daisy Ui", "react-animation"],
@@ -45,7 +45,7 @@
     },
     {
       "id": "project5-d5815c",
-      "img": "../src/assets/Project5.PNG",
+      "img": "../src/assets/project-5.png",
       "title": "BPL-Player-Choose",
       "description": "Welcome to BPL-Dream_11! This React-based application allows users to select and manage cricket players, just like forming their dream team. Select your players, manage your coins, and follow all the requirements inspired by a Figma design for an engaging experience.",
       "tag": ["react", "localstorage", "tailwindcss", "react-toastify"],
