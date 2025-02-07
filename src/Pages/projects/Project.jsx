@@ -4,6 +4,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 
 const Project = () => {
+  
   const [projects, setProjects] = useState([]);
   const navigate = useNavigate();
 

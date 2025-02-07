@@ -4,6 +4,7 @@
 @tailwind utilities;
 
 body {
+
   font-family: "Space Grotesk", sans-serif;
   background: linear-gradient(135deg, #0d0217, #190b1f, #3a0e52, #6b21a8);
   background-size: 400% 400%;

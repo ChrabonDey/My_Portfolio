@@ -1,22 +1,33 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import Navbar from '../Shared/Navbar';
-import Footer from '../Shared/Footer';
-
+import React, { useEffect, useState } from "react";
+import { Outlet } from "react-router-dom";
+import Navbar from "../Shared/Navbar";
+import Footer from "../Shared/Footer";
+import Loader from "../components/Loader";
 
 const MainLayout = () => {
-    return (
-        <div >
+  const [loading, setLoading] = useState(true);
 
-            <div className='max-w-[1280px] p-8 text-center mx-auto'>
-            <Navbar></Navbar>
-            </div>
-            <div className='max-w-[1280px] p-8 text-center mx-auto'>
-            <Outlet></Outlet>
-            </div>
-             <Footer></Footer>
-        </div>
-    );
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000); // Wait 1 second before removing the loader
+  }, []);
+
+  return loading ? (
+    <Loader />
+  ) : (
+    <div>
+      <div >
+        <Navbar />
+      </div>
+      <div >
+        <Outlet />
+      </div>
+       <div >
+       <Footer />
+       </div>
+    </div>
+  );
 };
 
 export default MainLayout;
