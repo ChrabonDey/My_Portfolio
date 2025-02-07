@@ -7,7 +7,7 @@ import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
-        <div className='max-w-[1280px] p-8 text-center mx-auto'>
+        <div>
             <Banner></Banner>
             <Skills></Skills>
             <Education></Education>
