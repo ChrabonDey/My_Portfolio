@@ -8,8 +8,6 @@ const Contact = () => {
   return (
     <div className="px-6 my-20 max-w-[1000px] mx-auto md:my-28" id="contact">
 
- 
-
          <h1 className="text-5xl font-extrabold">Get In <span className="text-purple-500">Touch</span></h1>
       <div className="grid md:grid-cols-2 place-items-center">
         {/* Contact Info Section */}
