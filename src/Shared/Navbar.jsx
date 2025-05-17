@@ -10,10 +10,10 @@ const Navbar = () => {
   const closeNav = () => setNav(false);
 
   const onButtonClick = () => {
-    const pdfUrl = "/ChrabonDeySarker_ResumeOf_Front-End-Devloper.pdf";
+    const pdfUrl = "/Chrabon.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "ChrabonDeySarker_ResumeOf_Front-End-Devloper.pdf";
+    link.download = "Chrabon.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -41,13 +41,13 @@ const Navbar = () => {
           <li><NavLink to="/contact" className="hover:text-purple-400 transition">Contact</NavLink></li>
         </ul>
 
-        {/* Download CV Button */}
+        {/* Download Resume Button */}
         <motion.button
           whileHover={{ scale: 1.05, boxShadow: "0px 0px 10px rgba(178, 19, 202, 0.6)" }}
           className="hidden md:block text-gray-200 px-6 py-2 border border-purple-400 rounded-xl transition-all"
           onClick={onButtonClick}
         >
-          Download CV
+          Download Resume
         </motion.button>
 
         {/* Mobile Menu Toggle Button */}
@@ -78,7 +78,7 @@ const Navbar = () => {
                 className="mt-6 text-gray-200 px-6 py-3 border border-purple-400 rounded-xl"
                 onClick={onButtonClick}
               >
-                Download CV
+                Download Resume
               </motion.button>
             </motion.div>
           )}

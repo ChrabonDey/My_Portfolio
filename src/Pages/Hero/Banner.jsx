@@ -20,10 +20,10 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   const onButtonClick = () => {
-    const pdfUrl = "/ChrabonDeySarker_ResumeOf_Front-End-Devloper.pdf";
+    const pdfUrl = "/Chrabon.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "/ChrabonDeySarker_ResumeOf_Front-End-Devloper.pdf"; // specify the filename
+    link.download = "/Chrabon.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -91,7 +91,7 @@ const Banner = () => {
                          border-purple-400 rounded-xl"
                  onClick={onButtonClick}        
             >
-              Download CV
+              Download Resume
             </motion.button>
 
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
@@ -99,7 +99,7 @@ const Banner = () => {
                 <AiOutlineGithub />
               </motion.a>
 
-              <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/chrabon-dey/">
+              <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/chrabon/">
                 <AiOutlineLinkedin />
               </motion.a>
 

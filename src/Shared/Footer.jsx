@@ -9,7 +9,7 @@ const Footer = () => {
             <h3 className='text-2xl text-gray-200 font-semibold'>Chrabon Dey Sarker</h3>
             <div className='flex flex-row gap-6 text-gray-400 text-4xl'>
                 <a href="https://github.com/ChrabonDey"><FaGithubSquare /></a>
-                <a href="https://www.linkedin.com/in/chrabon-dey/"><FaLinkedinIn /></a>
+                <a href="https://www.linkedin.com/in/chrabon/"><FaLinkedinIn /></a>
             </div>
 
         </div>
