@@ -32,7 +32,7 @@ const Contact = () => {
 
           {/* Social Links */}
           <div className="flex gap-6 mt-6">
-            <a href="https://www.linkedin.com/in/chrabon-dey/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/chrabon/" target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin size={32} className="text-blue-600 hover:text-blue-400 transition duration-300" />
             </a>
             <a href="https://github.com/ChrabonDey" target="_blank" rel="noopener noreferrer">
